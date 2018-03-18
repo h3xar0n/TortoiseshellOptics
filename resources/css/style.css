@@ -1,0 +1,42 @@
+/* Universal Style */
+
+body {
+  font-family: helvetica;
+  color: white;
+  font-size: 18px;
+}
+
+/* Header Style */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 960px;
+  height: auto;
+  background-color: cadetblue;
+  margin: 0 auto;
+  background-image: url("resources/images/glasses-bg.png");
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.logo span {
+  font-size: 1rem;
+}
+
+header nav {
+  padding-right: 40px;
+}
